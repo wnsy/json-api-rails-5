@@ -47,3 +47,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #
 gem 'active_model_serializers'
+# Seeds db
+gem 'faker'
+# Middleware to help throttle website (or API) usage
+gem 'rack-attack'
